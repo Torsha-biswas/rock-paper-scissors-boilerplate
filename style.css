@@ -1,0 +1,212 @@
+html{
+    width:100%;
+    height:100%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+body {
+    
+    
+        font-family: 'Arial', sans-serif;
+        background-image: url('assets/bg.png'); /* Adjust the path to your background image */
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+.start-page, .game-page {
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 3em; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+    color: rgb(90, 37, 192);
+}
+
+.bg-image {
+    background-image: url('assets/game-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust the height as needed */
+    width: 100%; /* Take full width of the container */
+    margin-bottom: 20px;
+}
+.play-container {
+    display: flex;
+    align-items: center;
+}
+button {
+    position: relative; /* Required for absolute positioning within the button */
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Styling the play button */
+.play-button {
+    background-image: url('assets/play-button.png'); /* Replace with the correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px; /* Adjust the width and height according to your image size */
+    height: 30px;
+    position: relative;
+}
+.button-text {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    font-weight: 700;
+    color: white; /* Adjust text color as needed */
+}
+
+.game-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(90, 37, 192);
+}
+/* Add styles for the player and comp borders */
+/* Add styles for the player and comp boxes */
+/* Add styles for the player and comp boxes */
+.game-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center; /* Center items vertically */
+}
+
+.player-box {
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    border: 5px solid yellow;
+    text-align: center;
+    position: relative;
+    margin-right: 150px; 
+}
+ .comp-box {
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    border: 5px solid yellow;
+    text-align: center;
+    margin-right: 170px; 
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* Style for vs image */
+.vs-image {
+    display: flex;
+    margin: 90px; /* Center the image horizontally */
+    width:100%;
+    height:100%;
+    justify-content: space-around;
+    align-items: center;
+    object-fit: cover;
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 27rem;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.score{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+/* Add this CSS to increase the size of the hand images */
+.hand-image {
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain the aspect ratio */
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+    margin-top: 14rem;
+}
+.move{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.result{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    color: white;
+}
+.p-count,.c-count{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    color: white;
+
+}
+.movesleft{
+    color: white;
+    font-size: 3.2rem;
+}
+
+.reload{
+    color: aquamarine;
+    font-size: 3rem;
+}
+
+
+/* Center text vertically and horizontally */
+
+/* Adjust the margin-right for proper spacing */
+
+
+/* Center text vertically and horizontally */
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors - Game</title>
+</head>
+
+<body>
+    <div class="game-page">
+        <h2 style="color: rgb(90, 37, 192);">Welcome, <span id="player-name"></span>!</h2>
+        <div class="game-box">
+            <div class="player-box">
+                <p>You</p>
+                <div class="choices">
+                    <button class="logo rock" onclick="selectChoice('rock')">
+                        <img src="assets/rock-logo.png" alt="Rock">
+                    </button>
+                    <button class="logo paper" onclick="selectChoice('paper')">
+                        <img src="assets/paper-logo.png" alt="Paper">
+                    </button>
+                    <button class="logo scissors" onclick="selectChoice('scissors')">
+                        <img src="assets/scissors-logo.png" alt="Scissors">
+                    </button>
+                </div>
+            </div>
+            <img class="vs-image" src="assets/vs.png" alt="VS">
+            <div class="comp-box" id="computer-choice">
+                <p>Comp</p>
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="score" id="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+ 
+            </div>       
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+ 
+            </div>
+        </div>
+        <div class="movesleft">Moves Left: 5 </div>
+        <button class="play-button" onclick="startGame()"></button>
+        <p> Play again</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
